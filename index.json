@@ -1,0 +1,112 @@
+{
+  "name": "Abida Lili",
+  "title": "Full Stack Web Developer",
+  "image": "/assets/Hero/programmer.png",
+  "herotitle": " hellow welcome to my profile",
+  "logo": "logo/assets",
+  "github": "https://github.com/abidalili",
+  "email": "lili.abida96@gmail.com",
+  "aboutMe": "",
+  "skills": [
+    {
+      "name": "javascript",
+      "icon": "assets/skillIcons/javascript.svg",
+      "level": 30
+    },
+    {
+      "name": "html",
+      "icon": "assets/skillIcons/html.png",
+      "level": 30
+    },
+    { "name": "react", "icon": "assets/skillIcons/react.svg", "level": 30 },
+    { "name": "css", "icon": "assets/skillIcons/css3.png", "level": 30 }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "companyname": "berger paints  ",
+      "title": "salesforce  developer",
+      "employmenttype": "permanent",
+      "jobdescripetion": "job description",
+      "startdate": "03-06-2023",
+      "enddate": "03-06-2023",
+      "present": "True"
+    },
+    {
+      "id": "2",
+      "companyname": "berger paints  ",
+      "title": "salesforce  developer",
+      "employmenttype": "permanent",
+      "jobdescripetion": "job description",
+      "startdate": "03-06-2023",
+      "enddate": "03-06-2023",
+      "present": "false"
+    },
+    {
+      "id": "3",
+      "companyname": "berger paints  ",
+      "employmenttype": "permanent",
+      "title": "salesforce  developer",
+      "jobdescripetion": "job description",
+      "startdate": "03-06-2023",
+      "enddate": "03-06-2023",
+      "present": "false"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "project name",
+      "image": "project image",
+      "description": "project description",
+      "githublink": "",
+      "livedemo": ""
+    },
+    {
+      "id": "2",
+      "name": "project name",
+      "image": "project image",
+      "description": "project description",
+      "sourcecode": "",
+      "livedemo": ""
+    },
+    {
+      "id": "3",
+      "name": "project name",
+      "image": "project image",
+      "description": " project description",
+      "sourcecode": "",
+      "livedemo": ""
+    },
+    {
+      "id": "4",
+      "name": "project name",
+      "image": "project image",
+      "description": "project description",
+      "sourcecode": "",
+      "livedemo": ""
+    }
+  ],
+  "soicalmedia": [
+    {
+      "name": "Facebook",
+      "link": "link",
+      "icon": "assets/socialMediaIcons/facebook.png "
+    },
+    {
+      "name": "Instagram",
+      "link": "link",
+      "icon": "assets/socialMediaIcons/Instagram.png "
+    },
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/abidalili/",
+      "icon": "assets/socialMediaIcons/linkedIn.png "
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/abidalili",
+      "icon": "assets/socialMediaIcons/github.png "
+    }
+  ]
+}
