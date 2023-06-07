@@ -30,27 +30,7 @@
       "jobdescripetion": "job description",
       "startdate": "03-06-2023",
       "enddate": "03-06-2023",
-      "present": "True"
-    },
-    {
-      "id": "2",
-      "companyname": "berger paints  ",
-      "title": "salesforce  developer",
-      "employmenttype": "permanent",
-      "jobdescripetion": "job description",
-      "startdate": "03-06-2023",
-      "enddate": "03-06-2023",
-      "present": "false"
-    },
-    {
-      "id": "3",
-      "companyname": "berger paints  ",
-      "employmenttype": "permanent",
-      "title": "salesforce  developer",
-      "jobdescripetion": "job description",
-      "startdate": "03-06-2023",
-      "enddate": "03-06-2023",
-      "present": "false"
+      "present": true
     }
   ],
   "projects": [
@@ -59,32 +39,8 @@
       "name": "project name",
       "image": "project image",
       "description": "project description",
-      "githublink": "",
-      "livedemo": ""
-    },
-    {
-      "id": "2",
-      "name": "project name",
-      "image": "project image",
-      "description": "project description",
-      "sourcecode": "",
-      "livedemo": ""
-    },
-    {
-      "id": "3",
-      "name": "project name",
-      "image": "project image",
-      "description": " project description",
-      "sourcecode": "",
-      "livedemo": ""
-    },
-    {
-      "id": "4",
-      "name": "project name",
-      "image": "project image",
-      "description": "project description",
-      "sourcecode": "",
-      "livedemo": ""
+      "githublink": "somethig",
+      "livedemo": "something"
     }
   ],
   "soicalmedia": [

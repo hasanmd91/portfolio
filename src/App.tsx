@@ -8,21 +8,24 @@ import Project from './Pages/Project';
 import Contact from './Pages/Contact';
 import Navabr from './components/Navbar/Index';
 import Footer from './Pages/Footer';
+import ProfileContext from './context';
+import Profile from '../index.json';
 
 const App = () => {
   return (
     <ChakraProvider resetCSS theme={theme}>
       <BrowserRouter>
         <Navabr />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
+        <ProfileContext.Provider value={Profile}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </ProfileContext.Provider>
       </BrowserRouter>
     </ChakraProvider>
   );

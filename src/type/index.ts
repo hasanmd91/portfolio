@@ -1,20 +1,21 @@
-export interface Skill {
+interface Skill {
   name: string;
   icon: string;
   level: number;
 }
 
-export interface Experience {
+interface Experience {
   id: string;
   companyname: string;
   title: string;
+  employmenttype: string;
   jobdescripetion: string;
   startdate: string;
   enddate: string;
   present: boolean;
 }
 
-export interface Project {
+interface Project {
   id: string;
   name: string;
   image: string;
@@ -23,19 +24,19 @@ export interface Project {
   livedemo: string;
 }
 
-export interface SocialMedia {
+interface SocialMedia {
   name: string;
   link: string;
   icon: string;
 }
 
-export interface Profile {
+interface Profile {
   name: string;
   title: string;
   image: string;
   herotitle: string;
   logo: string;
-  github: string;
+  githubLink: string;
   email: string;
   aboutMe: string;
   skills: Skill[];
@@ -43,3 +44,5 @@ export interface Profile {
   projects: Project[];
   soicalmedia: SocialMedia[];
 }
+
+export default Profile;
