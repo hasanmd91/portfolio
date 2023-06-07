@@ -1,5 +1,5 @@
-import { Link, Stack, Box, Text } from '@chakra-ui/react';
-
+import { Stack, Box, Text } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 type MenuItemProps = {
   isOpen: boolean;
 };
@@ -26,7 +26,7 @@ const MenuItem = ({ isOpen }: MenuItemProps) => {
         pt={[4, 4, 0, 0]}
       >
         {Menuitems.map((item) => (
-          <Link key={item.name} href={item.to}>
+          <Link key={item.name} to={item.to}>
             <Text fontWeight="semibold" fontSize="">
               {item.name}
             </Text>

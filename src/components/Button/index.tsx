@@ -1,7 +1,10 @@
-import { Button } from '@chakra-ui/react';
+import { Button as ChakraButton } from '@chakra-ui/react';
 
-const ChakraButton = () => {
-  return <Button>how are you </Button>;
+type ButtonProps = {
+  text?: string;
+};
+const Button = ({ text }: ButtonProps) => {
+  return <ChakraButton size={['sm', 'lg', 'lg', 'lg']}>{text}</ChakraButton>;
 };
 
-export default ChakraButton;
+export default Button;

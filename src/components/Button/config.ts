@@ -1,6 +1,5 @@
 import { defineStyleConfig } from '@chakra-ui/react';
 import { ComponentStyleConfig } from '@chakra-ui/react';
-import { darken, mode, whiten } from '@chakra-ui/theme-tools';
 
 export const Button: ComponentStyleConfig = defineStyleConfig({
   baseStyle: {
@@ -13,21 +12,25 @@ export const Button: ComponentStyleConfig = defineStyleConfig({
       fontSize: 'sm',
       px: 4,
       py: 3,
+      my: 4,
     },
     md: {
       fontSize: 'md',
       px: 6,
       py: 4,
+      my: 4,
+    },
+    lg: {
+      fontSize: 'lg',
+      px: 8,
+      py: 6,
+      my: 4,
     },
   },
   variants: {
-    primary: (props) => ({
+    primary: {
       bg: 'primary',
-      color: 'white',
-      _hover: mode(darken('primary', 20), whiten('primary', 20))(props),
-      boxShadow: 'md',
-    }),
-    secondary: {},
+    },
   },
   defaultProps: {
     size: 'md',

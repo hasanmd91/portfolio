@@ -17,7 +17,7 @@ const Navabr = () => {
       wrap="wrap"
       w="100%"
       mb={8}
-      p={8}
+      p={5}
       bg={['primary', 'primary', 'primary', 'primary']}
       color={['', '', '', '']}
     >
