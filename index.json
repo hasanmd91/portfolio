@@ -10,24 +10,45 @@
   "skills": [
     {
       "name": "javascript",
-      "icon": "assets/skillIcons/javascript.svg",
-      "level": 30
+      "icon": "src/assets/skillIcons/javascript.svg",
+      "level": 70
     },
     {
       "name": "html",
-      "icon": "assets/skillIcons/html.png",
-      "level": 30
+      "icon": "src/assets/skillIcons/html.png",
+      "level": 70
     },
-    { "name": "react", "icon": "assets/skillIcons/react.svg", "level": 30 },
-    { "name": "css", "icon": "assets/skillIcons/css3.png", "level": 30 }
+    {
+      "name": "html",
+      "icon": "src/assets/skillIcons/html.png",
+      "level": 70
+    },
+
+    {
+      "name": "html",
+      "icon": "src/assets/skillIcons/html.png",
+      "level": 70
+    },
+    { "name": "react", "icon": "src/assets/skillIcons/react.svg", "level": 70 },
+    { "name": "css", "icon": "src/assets/skillIcons/css3.svg", "level": 70 }
   ],
   "experience": [
     {
       "id": "1",
-      "companyname": "berger paints  ",
+      "companyname": "Berger paints  ",
       "title": "salesforce  developer",
       "employmenttype": "permanent",
-      "jobdescripetion": "job description",
+      "jobdescripetion": "-job description -job description",
+      "startdate": "03-06-2023",
+      "enddate": "03-06-2023",
+      "present": false
+    },
+    {
+      "id": "2",
+      "companyname": "Berger paints  ",
+      "title": "salesforce  developer",
+      "employmenttype": "permanent",
+      "jobdescripetion": "-job description descriptiondescription -job description",
       "startdate": "03-06-2023",
       "enddate": "03-06-2023",
       "present": true

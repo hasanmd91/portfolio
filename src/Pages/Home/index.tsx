@@ -3,9 +3,10 @@ import Button from '../../components/Button/index';
 import ProfileContext from '../../context';
 import { useContext } from 'react';
 import 'animate.css';
+import Profile from '../../type';
 
 const Home = () => {
-  const { herotitle, githubLink } = useContext(ProfileContext);
+  const { herotitle, githubLink } = useContext(ProfileContext) as Profile;
 
   return (
     <Container

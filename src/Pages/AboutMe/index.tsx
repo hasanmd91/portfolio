@@ -1,9 +1,10 @@
 import { Container, Stack, Image, Text } from '@chakra-ui/react';
 import ProfileContext from '../../context';
 import { useContext } from 'react';
+import Profile from '../../type';
 
 const About = () => {
-  const { image, aboutMe } = useContext(ProfileContext);
+  const { image, aboutMe } = useContext(ProfileContext) as Profile;
 
   return (
     <Container
